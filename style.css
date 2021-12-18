@@ -6,9 +6,22 @@
 body {
   margin: 0;
   padding: 20px;
-  min-height: 100vh;
-  background-color: #0f1624;
+  /* min-height: 100vh; */
+  background-color: #611212;
   font-family: "Open Sans", sans-serif;
+}
+h1 {
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 1rem;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  margin: 30px;
+  padding: 20px;
+}
+
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -95,7 +108,7 @@ body {
 
 .inner p {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 28px;
 }
 
